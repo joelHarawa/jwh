@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Container = styled.div`
     width: 100%;
-    height: 92vh;
+    height: 100vh;
     background-color: #071330;
     justify-content: center;
 `;
