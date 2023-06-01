@@ -39,7 +39,7 @@ const Description = styled.h4`
 `;
 
 const ProjectContainer = styled.div`
-    border: 1px solid black;
+    border: 5px solid #7BC2BC;
     background-color: white;
     width: 400px;
     padding: 10px;
