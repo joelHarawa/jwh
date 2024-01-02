@@ -5,21 +5,11 @@ import {Link} from "react-router-dom";
 
 const Container = styled.div`
     width: 100%;
-    height: 100vh;
+    height: 92vh;
     display: flex;
     background-color: #071330;
     align-items: center;
     justify-content: center;
-`;
-
-const Wrapper = styled.div`
-    padding-top: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-  
-    width: 600px;
 `;
 
 const Title = styled.h1`
@@ -69,16 +59,10 @@ const Contact = () => {
                         <Subtitle>Email</Subtitle>
                         <Description>Primary Email: joel.harawa@gmail.com</Description>
                         <Description>School Email: jwh8918@nyu.edu</Description>
-                        <ImageContainer>
-                            <Image src="https://img.uxwing.com/wp-content/themes/uxwing/download/communication-chat-call/envelope-icon.svg"/>
-                        </ImageContainer>
                     </ProjectContainer>
                     <ProjectContainer>
                         <Subtitle>Phone</Subtitle>
                         <Description>Mobile: +1-(347)-720-0541</Description>
-                        <ImageContainer>
-                            <Image src="https://img.uxwing.com/wp-content/themes/uxwing/download/communication-chat-call/phone-call-icon.svg"/>
-                        </ImageContainer>
                     </ProjectContainer>
                 </div>
             </Container>

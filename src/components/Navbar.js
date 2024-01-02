@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 const Container = styled.div`
     height:8vh;
+    background-color: #071330;
 `;
 
 const Wrapper = styled.div`
@@ -38,7 +39,7 @@ const Logo = styled(Link)`
     color: #7BC2BC;
     text-decoration: none;
     &:hover {
-      color: black;
+      color: white;
     }
 `;
 
@@ -47,9 +48,9 @@ const MenuItem = styled(Link)`
     cursor: pointer;
     margin-left: 25px;
     text-decoration: none;
-    color: black;
+    color: #7BC2BC;
     &:hover {
-      color: #7BC2BC;
+      color: white;
     }
   
 `;
@@ -67,7 +68,6 @@ const Navbar = () => {
                 </Center>
                 <Right>
                     <MenuItem to={"/contact"}>Contact</MenuItem>
-                    <MenuItem to={"/projects"}>Projects</MenuItem>
                 </Right>
             </Wrapper>
         </Container>
